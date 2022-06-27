@@ -1,0 +1,39 @@
+.portfolioContainer {
+    padding-top: 100px;
+    background: #f7f4f4;
+}
+.projectsContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.card {
+    text-align: center;
+    width: 28%;
+    padding: 1rem;
+    border-radius: 11px;
+    /* background: rgb(248, 246, 246); */
+    background: #fcfcfc; 
+    margin: 10px;
+    height: 400px;
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
+}
+.card p {
+    line-height: normal;
+    font-size: 12px;
+}
+.card img {
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+.projectLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}

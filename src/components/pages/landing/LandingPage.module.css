@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rajdhani&display=swap');
+.container {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fcfcfc;
+}
+.frame {
+    /* width: 25%; */
+    /* background: rgb(231, 203, 184); */
+    background: rgb(228,210,192);
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* padding: 100px; */
+    width: 30%;
+}
+.landingImg {
+    /* z-index: 2; */
+    background: transparent;
+    /* height:400px; */
+    z-index: 3;
+    margin: 15px auto;
+}
+.landingImg img {
+    height: 340px;
+    width: 120%;
+}
+.intro h2{
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 2rem; */
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3.5rem;
+}
+.intro h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-right: 100px;
+}
+.adjetivos {
+    /* background: #fcfcfc; */
+    display: flex;
+    z-index: 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.adjetivos div {
+    margin: 0 50px;
+    padding: 6px;
+    /* width: 50%; */
+    background-origin: padding-box;
+    /* background: rgb(245, 230, 220); */
+    background: rgb(241, 236, 231);
+    font-size: 16px;
+}
+.adjetivos p {
+    font-size: 12px;
+    line-height: normal;
+}

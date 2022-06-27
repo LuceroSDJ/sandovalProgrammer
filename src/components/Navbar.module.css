@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+/* nav {
+    background: rgb(248, 247, 245);
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px; 
+} */
+.logo {
+    padding-left: 100px;
+    font-family: 'Princess Sofia', cursive;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+    font-size: 2em;
+    font-weight: bold;
+    transform: translateY(0);
+    animation: rotateLogo 3s;
+    transition: transform 6s ease;
+    /* color: transparent; */
+    /* background: #eceff1; */
+    /* background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%); */
+    /* animation: loading 1.2s ease-in-out infinite; */
+    /* background-size: 400%; */
+}
+/* .test1 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+} */
+
+/* testing  */
+.nav1 {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px; 
+    /* height: 120px; */
+    background-color: #fff;
+    color: #333;
+    transform: translateY(0);
+    transition: transform 0.8s ease;
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+    z-index: 2;
+}
+  
+.nav2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    /* height: 130px; */
+    background-color: gray;
+    color: rosybrown;
+    transform: translateY(10);
+    transition: transform 8s ease;
+    animation: myanimation 5s;
+    z-index:s 2;
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+@keyframes myanimation {
+    0% {
+      background-color: transparent;
+      color: transparent;
+    }
+    35% {
+      background-color: rgb(158, 157, 157);
+      color: rosybrown;
+    }
+    100% {
+      background-color: gray;
+      color: rosybrown;
+    }
+}
+
+.menu {
+    padding-right: 100px;
+    display: flex;
+    column-gap: 2em;
+    font-size: 1.3em;
+}
+
+/* @keyframes loading {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  } */
+
+
+
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(-10deg);
+    }
+    45% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.menuIcon {
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+    padding-right: 100px;
+}

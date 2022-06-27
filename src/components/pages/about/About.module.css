@@ -1,0 +1,49 @@
+.aboutMeSection {
+    /* margin: 100px auto; */
+    padding-top: 100px;
+    margin: 0 auto;
+    background: #fcfcfc;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 960px;
+    box-sizing: border-box;
+}
+.bio {
+    text-align: left;
+}
+h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+p {
+    line-height: 1.4rem;
+    padding: 0.4rem;
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-origin: padding-box;
+}
+.perfil img {
+    border-radius: 16px;
+}
+.mediaIcons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    /* color: rgb(92, 159, 204); */
+    background-origin: padding-box;
+}
+.mediaIcons li {
+    border-radius: 13px;
+    padding: 0.5rem;
+    cursor: pointer;
+    /* background-color: #6b5b5b; */
+    /* box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13); */
+}
+.mediaIcons li a:hover {
+    /* color: #6b5b5b; */
+    color: #ff7235;
+}
