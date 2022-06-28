@@ -148,6 +148,9 @@
         color: rgb(33, 107, 167);
     }
     
+    nav ul a:hover {
+        color: rgb(133, 187, 231);
+    }
     .menuIcon {
         display: block;
     }

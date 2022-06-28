@@ -13,8 +13,6 @@ export default function Contact() {
         )
     }
     return (
-        <div className={styles.container}>
-
         <form onSubmit={handleSubmit}>
         {/* <form action="..." method="POST">     */}
             <label for="full-name">Full Name</label>
@@ -53,6 +51,5 @@ export default function Contact() {
                 Submit
             </button>
         </form>
-        </div>
     )
 }

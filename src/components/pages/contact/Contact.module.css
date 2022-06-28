@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rajdhani&display=swap');
 
-/* .container { */
-    /* padding-top: 500px; */
-    /* z-index: 9; */
-    /* margin-top: 300px; */
-    /* position: absolute; */
-    /* bottom: 50%; */
-    /* margin-top: 100px; */
-    /* padding: 100px; */
-    /* margin: auto; */
-/* } */
 /* message to user  */
 .thankYouNote {
     background: rgb(228,210,192);
@@ -30,8 +20,6 @@
     font-size: 2rem;
 }
 form {
-    /* width: 500px; */
-    /* margin: auto; */
     width: 45%;
     margin: auto;
     margin-top: 10%;
@@ -62,4 +50,12 @@ form button {
     background: rgb(228,210,192);;
     
     cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    form {
+        padding: 1rem;
+        margin-top: 7rem;
+        width: 65%;
+    }
 }
