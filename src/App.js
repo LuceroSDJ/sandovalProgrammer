@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       {/* ---------------  CREATE ROUTES  -------------  */}
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/sandovalProgrammer" element={<LandingPage />} />
         <Route path="/about" element={<About />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/contact" element={<Contact />}/>

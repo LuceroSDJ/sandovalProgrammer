@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rajdhani&display=swap');
+
+/* .container { */
+    /* padding-top: 500px; */
+    /* z-index: 9; */
+    /* margin-top: 300px; */
+    /* position: absolute; */
+    /* bottom: 50%; */
+    /* margin-top: 100px; */
+    /* padding: 100px; */
+    /* margin: auto; */
+/* } */
+/* message to user  */
+.thankYouNote {
+    background: rgb(228,210,192);
+    margin: auto;
+    margin-top: 15%;
+    width: 50%;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+.thankYouNote p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+}
+.thankYouNote span {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+form {
+    /* width: 500px; */
+    /* margin: auto; */
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    background: rgb(228,210,192);
+    background: rgba(181, 221, 228, 0.719);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-origin: padding-box;
+}
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    /* padding: 1rem 0.5rem 0.5rem; */
+}
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+form button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 30%;
+    border: none;
+    background: rgb(228,210,192);;
+    
+    cursor: pointer;
+}

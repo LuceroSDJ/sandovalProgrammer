@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         // <div className={header}>
             <nav className={header}>
-                <h1 className={styles.logo}>Lucero</h1>
+                <Link className={styles.logo} to="/sandovalProgrammer">Lucero</Link>
                 {/* <h1 className={styles.test1}>Lucero</h1> */}
                 <ul className={styles.menu}>
                     <li>
