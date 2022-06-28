@@ -47,3 +47,17 @@ p {
     /* color: #6b5b5b; */
     color: rgb(228,210,192);
 }
+
+@media screen and (max-width: 720px) {
+    .aboutMeSection {
+        display: flex;
+        flex-direction: column;
+        padding: 4.5rem 3.5rem;
+    }
+    .perfil {
+        margin-bottom: 1.5rem;
+    }
+    .bio {
+        text-align: justify;
+    }
+}

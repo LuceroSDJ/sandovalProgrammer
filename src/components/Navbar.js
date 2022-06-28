@@ -6,6 +6,7 @@ import styles from "./Navbar.module.css";
 
 export default function Navbar() {
     const [header, setHeader] = useState(styles.nav1);
+    const [toggleMenu, setToggleMenu] = useState(styles.menu)
 
     const listenScrollEvent = event => {
         if (window.scrollY < 73) {
@@ -21,24 +22,32 @@ export default function Navbar() {
         return () => window.removeEventListener("scroll", listenScrollEvent);
     }, []);
 
+    const handleClick = () => {
+        setToggleMenu(`${styles.menu} ${styles.show}`)
+
+    }
+    const onLinkClick = () => {
+        setToggleMenu(styles.menu)
+    }
+
     return (
         // <div className={header}>
             <nav className={header}>
                 <Link className={styles.logo} to="/sandovalProgrammer">Lucero</Link>
                 {/* <h1 className={styles.test1}>Lucero</h1> */}
-                <ul className={styles.menu}>
-                    <li>
+                <ul className={toggleMenu}>
+                    <li onClick={onLinkClick}>
                         <Link to="/about">About</Link>
                     </li>
-                    <li>
+                    <li onClick={onLinkClick}>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
-                    <li>
+                    <li onClick={onLinkClick}>
                         <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
 
-                <button className={styles.menuIcon}>
+                <button onClick={handleClick} className={styles.menuIcon}>
                     <FaBars />
                 </button>
             </nav>
