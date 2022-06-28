@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sandovalProgrammer/static/css/main.6a506710.css",
-    "main.js": "/sandovalProgrammer/static/js/main.e59e8ffc.js",
+    "main.css": "/sandovalProgrammer/static/css/main.bf13abc5.css",
+    "main.js": "/sandovalProgrammer/static/js/main.47325bb1.js",
     "static/media/memoryGame.png": "/sandovalProgrammer/static/media/memoryGame.f2027508570f71886dd1.png",
     "static/media/to-do.png": "/sandovalProgrammer/static/media/to-do.2daf01db8e1456b5511b.png",
     "static/media/giphyAPI.png": "/sandovalProgrammer/static/media/giphyAPI.8207aaccfe2d565e39e4.png",
     "static/media/react-notes.png": "/sandovalProgrammer/static/media/react-notes.b664526bb19498be753d.png",
     "index.html": "/sandovalProgrammer/index.html",
-    "main.6a506710.css.map": "/sandovalProgrammer/static/css/main.6a506710.css.map",
-    "main.e59e8ffc.js.map": "/sandovalProgrammer/static/js/main.e59e8ffc.js.map"
+    "main.bf13abc5.css.map": "/sandovalProgrammer/static/css/main.bf13abc5.css.map",
+    "main.47325bb1.js.map": "/sandovalProgrammer/static/js/main.47325bb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a506710.css",
-    "static/js/main.e59e8ffc.js"
+    "static/css/main.bf13abc5.css",
+    "static/js/main.47325bb1.js"
   ]
 }
