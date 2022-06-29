@@ -28,6 +28,8 @@ p {
 }
 .perfil img {
     border-radius: 16px;
+    background-size: cover;
+    width: 80%;
 }
 .mediaIcons {
     display: flex;
@@ -52,10 +54,13 @@ p {
     .aboutMeSection {
         display: flex;
         flex-direction: column;
-        padding: 4.5rem 3.5rem;
+        padding: 5.5rem 3.5rem;
     }
     .perfil {
         margin-bottom: 1.5rem;
+    }
+    .perfil img {
+        width: 60%;
     }
     .bio {
         text-align: justify;

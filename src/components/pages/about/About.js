@@ -1,18 +1,15 @@
 import React from 'react';
 import { BsThermometerSun } from "react-icons/bs";
 import { GiTexas } from "react-icons/gi";
-
 import NetworkLinks from "./NetworkLinks";
-
-
-
+import profile from "../../images/profile2.jpeg";
 import styles from "./About.module.css";
 
 export default function About() {
     return (
         <section className={styles.aboutMeSection}>
             <div className={styles.perfil}>
-                <img src="https://picsum.photos/200" />
+                <img src={profile} />
                 <p>Hello, world! <br/> My name is Carmen Lucero.</p>
                 <p>Frontend Web Developer</p>
                 <NetworkLinks />

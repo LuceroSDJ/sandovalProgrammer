@@ -26,7 +26,8 @@
 }
 .landingImg img {
     height: 340px;
-    width: 120%;
+    width: 100%;
+    background-size: contain;
 }
 .intro h2{
     font-family: 'Rajdhani', sans-serif;

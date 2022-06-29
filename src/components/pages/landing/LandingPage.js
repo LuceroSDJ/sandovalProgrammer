@@ -5,6 +5,7 @@ import { IoExtensionPuzzleSharp } from "react-icons/io5";
 import { IoRocketSharp } from "react-icons/io5";
 import { FaHandsHelping } from "react-icons/fa";
 import { HiThumbUp} from "react-icons/hi";
+import profilePic from "../../images/profile1.jpeg"
 import styles from "./LandingPage.module.css";
 
 export default function LandingPage() {
@@ -13,7 +14,7 @@ export default function LandingPage() {
             <div className={styles.container}>
                 <div className={styles.frame}></div>
                 <div className={styles.landingImg}>
-                    <img src="https://picsum.photos/200" />
+                    <img src={profilePic} />
                 </div>
                 <div className={styles.intro}>
                     <h2>Need a Font-end Web Developer?</h2>
