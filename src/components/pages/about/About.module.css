@@ -61,3 +61,17 @@ p {
         text-align: justify;
     }
 }
+
+/* small phones  */
+@media screen and (max-width: 420px) {
+    .perfil {
+        margin-top: 2rem;
+    }
+   .aboutMeSection {
+       margin-top: 3rem;
+       padding: 15px;
+   }
+   .bio {
+       font-size: 14px;
+   }
+}

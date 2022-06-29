@@ -23,8 +23,9 @@ export default function Navbar() {
     }, []);
 
     const handleClick = () => {
-        setToggleMenu(`${styles.menu} ${styles.show}`)
-
+        toggleMenu == styles.menu 
+        ? setToggleMenu(`${styles.menu} ${styles.show}`)
+        : setToggleMenu(styles.menu)
     }
     const onLinkClick = () => {
         setToggleMenu(styles.menu)

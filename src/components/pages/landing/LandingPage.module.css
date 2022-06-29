@@ -104,3 +104,30 @@
         font-size: 13px;
     }
 }
+
+
+/* On small phones such as the iPhone 6, 7, and 8 plus */
+@media screen and (max-width: 420px) {
+    .landingImg img {
+        height: 180px;
+        width: 100%;
+    }
+    .frame {
+        height: 340px;
+    }
+    .intro h2 {
+        font-size: 1.6rem;
+    }
+    .intro h3 {
+        font-size: 1.5rem;
+    }
+    .intro {
+        padding-right: 10px;
+    }
+    .adjetivos div {
+        margin: 10px 10px;
+        padding: 4px;
+        background: rgb(241, 236, 231);
+        font-size: 12px;
+    }
+}
