@@ -9,13 +9,10 @@ import collabApp from "../../images/collabApp.png";
 import styles from "./Portfolio.module.css";
 
 const images = [
+    collabApp,
     moneyTracker,
     memoryGame,
-    // notes,
-    giphyAPI,
-    // to_do,
-    
-    collabApp
+    giphyAPI 
 ]
 
 export default function ProjectCard({data}) {
