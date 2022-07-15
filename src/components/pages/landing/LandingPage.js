@@ -19,7 +19,7 @@ export default function LandingPage() {
                 <div className={styles.intro}>
                     <h2>Need a Font-end Web Developer?</h2>
                     <h3>I'm here to help.</h3>
-                    <button>Schedule a Call</button>
+                    {/* <button>Schedule a Call</button> */}
                 </div>             
             </div>
             <div className={styles.adjetivos}>

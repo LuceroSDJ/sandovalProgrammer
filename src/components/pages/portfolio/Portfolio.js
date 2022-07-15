@@ -16,13 +16,41 @@ export default function Portfolio() {
         console.log("retrievedRepos.data", retrievedRepos.data)
         const filteredData = retrievedRepos.data;
         // const result = filteredData.filter(repo => repo.stargazers_count > 0);
-        const result = filteredData.filter(repo => repo.topics != "");
+        const result = await filteredData.filter(repo => repo.topics != "");
+        
+        //build object
+        const projects = await result.map(project => {
+            console.log("test", reposListData.id)
+            return {
+                id: project.id,
+                name: project.name,
+                description: project.description,
+                gitHubLink: project.clone_url,
+                liveSite: project.homepage
+            }
+        })
+
+        const reactProjects = [
+            {
+                id: 999,
+                name: "Money Tracker",
+                description: "This React-powered web application helps users keep track of their expenses through a simple and intuitive User Interface. Firebase real-time database & authentication services shine, allowing users to create their accounts and see new transactions in real-time.",
+                gitHubLink: "must deploy",
+                liveSite: "https://mymoneytracker-5d8af.web.app/"
+            },
+            {
+                id: 9999,
+                name: "Collab Group Web App",
+                description: "This web application leverages Context, Hooks, Reducers, and Routing to create interactive log-in, sign-up, and dashboard pages binging a group collaboration site to live. Users can interact in real-time with other users by adding new projects and comments. The magic comes from Firebase Authentication and Realtime Database services storing and syncing app data in milliseconds.",
+                gitHubLink: "must deploy",
+                liveSite: "https://mycollabgroupapp.web.app"
+            },
+        ]
         // update state
-        setReposListData(result);
+        setReposListData([...projects, ...reactProjects]);
         }
         getMyRepos();
     }, [setReposListData])
-
 
     return (
         <div className={styles.portfolioContainer}>

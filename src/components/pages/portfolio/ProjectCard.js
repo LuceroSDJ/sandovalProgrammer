@@ -3,14 +3,18 @@ import memoryGame from "../../images/memoryGame.png";
 import notes from "../../images/react-notes.png";
 import giphyAPI from "../../images/giphyAPI.png";
 import to_do from "../../images/to-do.png";
+import moneyTracker from "../../images/moneyTracker.png";
+import collabApp from "../../images/collabApp.png";
 
 import styles from "./Portfolio.module.css";
 
 const images = [
     memoryGame,
-    notes,
+    // notes,
     giphyAPI,
-    to_do
+    // to_do,
+    moneyTracker,
+    collabApp
 ]
 
 export default function ProjectCard({data}) {
@@ -23,10 +27,10 @@ export default function ProjectCard({data}) {
                     <p>{project.description}</p>
                     <div className={styles.projectLinks}>
                         <div className={styles.github}>
-                            <a href={project.clone_url}>GitHub Repo</a>
+                            <a href={project.gitHubLink}>GitHub Repo</a>
                         </div>
                         <div className={styles.deployedLink}>
-                            <a href={project.homepage}>Check it out!</a>
+                            <a href={project.liveSite}>Check it out!</a>
                         </div>
                     </div>
                 </div>
