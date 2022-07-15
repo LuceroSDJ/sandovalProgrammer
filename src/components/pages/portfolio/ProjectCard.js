@@ -9,11 +9,12 @@ import collabApp from "../../images/collabApp.png";
 import styles from "./Portfolio.module.css";
 
 const images = [
+    moneyTracker,
     memoryGame,
     // notes,
     giphyAPI,
     // to_do,
-    moneyTracker,
+    
     collabApp
 ]
 

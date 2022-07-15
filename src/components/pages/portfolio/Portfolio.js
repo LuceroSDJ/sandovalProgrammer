@@ -30,24 +30,8 @@ export default function Portfolio() {
             }
         })
 
-        const reactProjects = [
-            {
-                id: 999,
-                name: "Money Tracker",
-                description: "This React-powered web application helps users keep track of their expenses through a simple and intuitive User Interface. Firebase real-time database & authentication services shine, allowing users to create their accounts and see new transactions in real-time.",
-                gitHubLink: "must deploy",
-                liveSite: "https://mymoneytracker-5d8af.web.app/"
-            },
-            {
-                id: 9999,
-                name: "Collab Group Web App",
-                description: "This web application leverages Context, Hooks, Reducers, and Routing to create interactive log-in, sign-up, and dashboard pages binging a group collaboration site to live. Users can interact in real-time with other users by adding new projects and comments. The magic comes from Firebase Authentication and Realtime Database services storing and syncing app data in milliseconds.",
-                gitHubLink: "must deploy",
-                liveSite: "https://mycollabgroupapp.web.app"
-            },
-        ]
         // update state
-        setReposListData([...projects, ...reactProjects]);
+        setReposListData(projects);
         }
         getMyRepos();
     }, [setReposListData])
