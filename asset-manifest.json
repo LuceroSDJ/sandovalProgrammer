@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/sandovalProgrammer/static/css/main.916ca332.css",
-    "main.js": "/sandovalProgrammer/static/js/main.060d76c0.js",
+    "main.css": "/sandovalProgrammer/static/css/main.0e977c9b.css",
+    "main.js": "/sandovalProgrammer/static/js/main.c138c4c7.js",
     "static/media/profile2.jpeg": "/sandovalProgrammer/static/media/profile2.6fd7d9b361f2279c3a7d.jpeg",
     "static/media/memoryGame.png": "/sandovalProgrammer/static/media/memoryGame.f2027508570f71886dd1.png",
     "static/media/profile1.jpeg": "/sandovalProgrammer/static/media/profile1.e234e24b0afc2df4cc6f.jpeg",
+    "static/media/collabApp.png": "/sandovalProgrammer/static/media/collabApp.0d756caf87f6d8e5ccd5.png",
+    "static/media/moneyTracker.png": "/sandovalProgrammer/static/media/moneyTracker.c736cc86eed45c2cf1d9.png",
     "static/media/to-do.png": "/sandovalProgrammer/static/media/to-do.2daf01db8e1456b5511b.png",
     "static/media/giphyAPI.png": "/sandovalProgrammer/static/media/giphyAPI.8207aaccfe2d565e39e4.png",
     "static/media/react-notes.png": "/sandovalProgrammer/static/media/react-notes.b664526bb19498be753d.png",
     "index.html": "/sandovalProgrammer/index.html",
-    "main.916ca332.css.map": "/sandovalProgrammer/static/css/main.916ca332.css.map",
-    "main.060d76c0.js.map": "/sandovalProgrammer/static/js/main.060d76c0.js.map"
+    "main.0e977c9b.css.map": "/sandovalProgrammer/static/css/main.0e977c9b.css.map",
+    "main.c138c4c7.js.map": "/sandovalProgrammer/static/js/main.c138c4c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.916ca332.css",
-    "static/js/main.060d76c0.js"
+    "static/css/main.0e977c9b.css",
+    "static/js/main.c138c4c7.js"
   ]
 }
