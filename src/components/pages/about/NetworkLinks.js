@@ -8,7 +8,7 @@ export default function NetworkLinks() {
     return (
         <ul className={styles.mediaIcons}>
             <li>
-                <a href="https://www.linkedin.com/in/lucero-sandoval-38161b174" target="_blank" rel="noopener noreferrer" className="linkedIn_icon" >
+                <a href="https://www.linkedin.com/in/carmen-sandoval-38161b174/" target="_blank" rel="noopener noreferrer" className="linkedIn_icon" >
                     <FaLinkedin />
                 </a>
             </li>

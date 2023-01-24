@@ -8,6 +8,12 @@
     justify-content: space-between;
     padding: 20px; 
 } */
+
+/* child selector with pseudo-classes:  */
+ul>li:hover::first-letter {
+    color: green;
+    font-size: 1.1em;
+}
 .logo {
     padding-left: 100px;
     font-family: 'Princess Sofia', cursive;
